@@ -169,9 +169,8 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;93mWarning: \033[1;92miF You Think You Are Bad ' )
-		
-        jalan(' \033[1;91mWarning: \033[1;95mUse a New Account To Login' )
+		jalan(' \033[1;93mWarning: \033[1;92mDo Not Use Your Personal Account' )
+		jalan(' \033[1;93mWarning: \033[1;92mUse a New Account To Login' )
 		jalan(' \033[1;93mWarning: \033[1;92mTermux All Version Working' )
                 jalan(' \033[1;91mWarning: \033[1;95mTermux Data Clear Everyday' ) 
                 jalan(' \033[1;91mWarning: \033[1;95mTool Update Everyday 👆' )                
